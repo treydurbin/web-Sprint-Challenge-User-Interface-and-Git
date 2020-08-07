@@ -69,9 +69,54 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+  border:2px:solid;
+  
 }
 
-.top-content {
+.logo{
+  width:20%;
+  display:flex;
+  margin-right:0 auto%;
+}
+
+.logo img{
+  max-width:100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+header .logo {
+    width: 157px;
+    height: 40px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    font-size: 22px;
+    text-decoration: UPPERCASE;
+    color: black;
+  transition:1s;
+  margin-bottom:6%;
+}
+.headerimage {
+    margin: 3% 15% 2% 15%;
+}
+.jumbotron {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.topcontent {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,32 +124,122 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.topcontent .textcontainer {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middlecontent {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middlecontent h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middlecontent .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middlecontent .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,17 +247,57 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.topabout .first-container {
+    width: 100%;
+    padding: 1 2% 24px 4%; 
+
+ 
+}
+.middleabout {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middleabout-about {
     display: flex;
-    margin: 0 2% 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2 2% 2% 2%;
+}
+
+.middleaboutarea {
+    display: flex;
+    align-self: auto;
+    flex-direction: column;
+    width: 350px;
+    padding-bottom: 4%;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+  transition:2s;
+}
+
+.middleaboutarea p {
+    padding-bottom: 4%;
+}
+
+.middleaboutarea .learnnmore {
+    width: 150px;
+    padding: 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.bottomcontenthere {
+    display: flex;
+    margin: 0 3% 25px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.bottomcontenthere .textcontainer {
+    padding-right: 5%;
 }
-
-.bottom-content .text-container:last-child {
+p {
     padding-right: 0;
 }
 
@@ -143,4 +318,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+} 
